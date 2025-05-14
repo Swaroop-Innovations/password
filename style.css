@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.6Uaj9OawwPMJT6bhs4bw1wHaEK&pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  color: black;
+  font-weight: bolder;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(222, 14, 14, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.controls {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.controls label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+.output {
+  margin-top: 1em;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.output input {
+  flex: 1;
+  padding: 0.5em;
+}
